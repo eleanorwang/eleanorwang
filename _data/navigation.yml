@@ -1,36 +1,33 @@
-# main links
-main:
-  - title: "about"
-    url: /about/
-  # - title: "cv"
-  #   url: /cv/
-  - title: "portfolio"
-    url: /portfolio/
-    children:
-      - title: "scientific illustration"
-        url: /scientific-illustration/
-      - title: "writing"
-        url: /writing/
-      - title: "digital sketchbook"
-        url: /digital-sketchbook/
-      - zines: "zines"
-        url: /zines/
+# The following is the order of the links in the header of the website.
+#
+# Changing the order here will adjust the order and you can also add additional
+# links. Removing a link prevents it from showing in the header, but does not
+# prevent it from being included in the site.
+#
+# NOTE that only one of the CV options should be selected, the first is for the
+#      Markdown formatted page while the second is generated using JSON.
 
-# example navigation
-# foo:
-#   - title: "Parent Link 1"
-#     url: /parent-1-page-url/
-#     children:
-#       - title: "Child Link 1"
-#         url: /child-1-page-url/
-#       - title: "Child Link 2"
-#         url: /child-2-page-url/
-#   - title: "Parent Link 2"
-#     url: /parent-2-page-url/
-#     children:
-#       - title: "Child Link 1"
-#         url: /child-1-page-url/
-#       - title: "Child Link 2"
-#         url: /child-2-page-url/
-#       - title: "Child Link 3"
-#         url: /child-3-page-url/
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Talks"
+    url: /talks/    
+
+  - title: "Teaching"
+    url: /teaching/    
+    
+  - title: "Portfolio"
+    url: /portfolio/
+        
+  - title: "Blog Posts"
+    url: /year-archive/
+    
+  - title: "CV"
+    url: /cv/
+    
+  # - title: "CV"
+  #   url: /cv-json/
+    
+  - title: "Guide"
+    url: /markdown/
