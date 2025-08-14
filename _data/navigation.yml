@@ -1,0 +1,36 @@
+# main links
+main:
+  - title: "about"
+    url: /about/
+  - title: "cv"
+    url: /cv/
+  - title: "portfolio"
+    url: /portfolio/
+    children:
+      - title: "scientific illustration"
+        url: /scientific-illustration/
+      - title: "writing"
+        url: /writing/
+      - title: "digital sketchbook"
+        url: /digital-sketchbook/
+      - zines: "zines"
+        url: /zines/
+
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
